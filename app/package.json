@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Node Express MongoDB App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziad/docker-express-mongo.git"
+  },
+  "keywords": [
+    "express",
+    "mongoDB"
+  ],
+  "author": "Ziad Hakim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziad/docker-express-mongo/issues"
+  },
+  "homepage": "https://github.com/ziad/docker-express-mongo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.14"
+  }
+}
